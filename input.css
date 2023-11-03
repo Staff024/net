@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    background: red;
+    border-bottom: 2px solid green;
+}
+input{
+    padding: 10px 15px;
+    border: none;
+    border-left: 2px solid blue;
+}
+.submit{
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.submit:hover{
+    background-color: rgb(86, 176, 146);
+}
+.submit:active{
+    background-color: rgb(53, 108, 89);
+}
+.search{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet;
+    font-size: 20px;
+    transition: .3s linear;
+}
+.search:hover{
+    background-color: rgb(45, 95, 78);
+}
+.search:focus{
+    width: 600px;
+}
